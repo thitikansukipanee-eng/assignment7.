@@ -1,0 +1,38 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #e0e0e0; /* เส้นขีดคั่นบางๆ ด้านล่าง */
+}
+
+.logo span {
+    font-family: "Times New Roman", Times, serif; /* ฟอนต์แบบในรูป */
+    font-size: 32px;
+    font-weight: bold;
+    color: #000;
+}
+
+.toggle-btn {
+    background-color: #0022cc; /* สีน้ำเงินเข้ม */
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.toggle-btn:hover {
+    background-color: #0019a3;
+}
+
+/* Dark Mode Support */
+.header-dark {
+    border-bottom: 1px solid #444;
+}
+.header-dark .logo span {
+    color: white;
+}
